@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.title {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.text {
+    color: white;
+}
+
+.side-block {
+    width: auto;
+    height: auto;
+}
+
+.side-block {
+    line-height: 3em;
+}
+
+.side-block img {
+    float: top;
+    width: 450px;
+    height: 450px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+
+article {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article>h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+article>p {
+    flex: 1;
+    line-height: 1.4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article>span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 2em 0 0 0;
+}
+
+article>h2 {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: oblique;
+    margin: 2em 0 0 0;
+    color: #333;
+}
+
+.thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-block {
+    width: auto;
+    height: auto;
+}
+
+.main-block {
+    line-height: 3em;
+}
+
+.main-block img {
+    float: right;
+    width: 220px;
+    height: 220px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+
+.table {
+    background-color: white;
+    grid: 1;
+    border: 1;
+    padding: 10px;
+}
+
+.table-text {
+    font-size: 24px;
+    font-style: inherit;
+    color: black;
+    margin: auto;
+    margin: 5px;
+}
+
+input {
+    width: 50px;
+    height: 50px;
+    transition: all 2s;
+}
+
+input:focus {
+    width: 50px;
+    font-size: 24px;
+}

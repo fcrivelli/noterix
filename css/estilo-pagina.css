@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+    background-color: black;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+.logo {
+    display: inline-block;
+    width: 3em;
+    filter: brightness(100);
+    margin: -.5em auto;
+    vertical-align: middle;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

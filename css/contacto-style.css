@@ -1,0 +1,46 @@
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.principal {
+    display: block;
+    margin: 0 auto;
+    width: 510px;
+    color: #969696;
+    font-family: Arial;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+}
+
+input,
+textarea {
+    width: 380px;
+    height: 27px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 10px;
+    color: #050505;
+}
+
+textarea {
+    height: 150px;
+}
+
+#submit {
+    border-width: 0;
+    color: #4d2b90;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: .6em;
+    padding: .25em .5em;
+    text-align: center;
+    transition: 200ms ease-in-out;
+}
