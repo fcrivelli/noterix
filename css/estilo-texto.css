@@ -42,6 +42,16 @@ article>h1 {
     color: #333;
 }
 
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    article>p {
+      flex: auto; 
+      line-height: 1.4; 
+    }
+}
+
 article>p {
     flex: 1;
     line-height: 1.4;
