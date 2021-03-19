@@ -175,8 +175,8 @@ and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2) {
     .view-third .mask {
-        width: 110px;
-        height: 110px;
+        width: 100%;
+        height: 250px;
         background-color: rgba(0, 0, 0, 0.6);
         opacity: 0;
         transform: translate(460px, -100px) rotate(180deg);
