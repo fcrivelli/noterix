@@ -11,7 +11,7 @@
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
     background: 0 0;
-    color: #1E88E5 !important;
+    color: #333 !important;
     border: none;
     padding: 5px 20px !important;
     font: inherit;
