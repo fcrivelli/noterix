@@ -42,7 +42,8 @@ article>text {
     color: #333;
     padding: 5px;
     font-style: oblique;
-    flex: 1; 
+    flex: 1;
+    flex-direction: column; 
     line-height: 1;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
@@ -127,7 +128,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     article>p {
       float: inline-end;
-      flex: 1; 
+      flex: 1;
+      flex-direction: column; 
       line-height: 1.4; 
     }
     .main-block img {
@@ -146,7 +148,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         padding: 20px;
         flex: 1;
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
     }
 }
