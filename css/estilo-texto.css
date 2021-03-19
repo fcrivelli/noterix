@@ -6,10 +6,6 @@
     color: rgb(0, 0, 0);
 }
 
-.text {
-    color: white;
-}
-
 .side-block {
     width: auto;
     height: auto;
@@ -42,48 +38,22 @@ article>h1 {
     color: #333;
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2) {
-    .side-block img {
-        float: top;
-        width: 250px;
-        height: 250px;
-        margin-top: 3%;
-        margin-left: 3%;
-        margin-right: 4%;
-    }
-    article>p {
-      flex: 1;
-      text-align: center; 
-      line-height: 1.4; 
-    }
-    .main-block img {
-        float: top;
-        width: 110px;
-        height: 110px;
-        margin-top: 3%;
-        margin-left: 3%;
-        margin-right: 4%;
-    }
-    .table{
-        width: auto;
-        height: auto;
-    }
-    article {
-        padding: 20px;
-        flex: 1;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+article>text {
+    color: #333;
+    padding: 5px;
+    font-style: oblique;
+    flex: 1; 
+    line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 article>p {
+    color: #333;
+    padding: 5px;
     flex: 1;
+    font-style: italic;
     line-height: 1.4;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 article>span {
@@ -136,4 +106,47 @@ input {
 input:focus {
     width: 50px;
     font-size: 24px;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .side-block img {
+        float: top;
+        width: 250px;
+        height: 250px;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 4%;
+    }
+    article>h1 {
+        font-size: 20px;
+        margin: 0;
+        color: #333;
+    }
+    article>p {
+      float: inline-end;
+      flex: 1; 
+      line-height: 1.4; 
+    }
+    .main-block img {
+        float: top;
+        width: 110px;
+        height: 110px;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 4%;
+    }
+    .table{
+        width: auto;
+        height: auto;
+    }
+    article {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
