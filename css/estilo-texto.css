@@ -67,6 +67,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-left: 3%;
         margin-right: 4%;
     }
+    .tabke{
+        width: auto;
+        height: auto;
+    }
 }
 
 article>p {
