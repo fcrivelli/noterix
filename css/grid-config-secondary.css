@@ -37,3 +37,18 @@
     padding: .5em;
     text-align: center;
 }
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #grid-layout {
+        display: grid;
+        grid-gap: 10px;
+        gap: 10px;
+        /* DESIGN YOUR GRID TEMPLATE */
+        grid-template-columns: auto;
+        grid-auto-rows: 1fr 1fr 1fr;
+        grid-template-areas: "side side side" "main main main" "side1 side1 side1";
+    }
+}
